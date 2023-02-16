@@ -1,0 +1,98 @@
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 5px;
+    background-color:rgb(242, 236, 227) ;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cardbox{
+    /* height: 50%;
+    width: 50%; */
+    max-width: 700px;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    
+}
+img{
+    /* height: 100%; */
+    width: 45%;
+   
+}
+.content{
+  text-align: left;
+    /* padding: 10px; */
+   margin: 1.5em 2em;
+    
+}
+.prd{
+    font-family: "Montserart",sans-serif;
+    font-size: var(--text);
+    color:hsl(228, 12%, 48%);
+    letter-spacing: 0.3em;
+    font-weight: 500;
+}
+.prdtext{
+    font-size: 2.3rem;
+    width: 80%;
+    font-weight: 700;
+    font-family: "Fraunces",serif;
+    line-height: 1;
+    margin: 0.6em 0 0.7em 0;
+}
+.des{
+    font-family: "Montserart",sans-serif;
+    font-size: 1.1rem;
+    color:hsl(228, 12%, 48%);
+    width: 96%;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+    
+}
+.greenprice{
+    color:hsl(156deg 37% 34%);
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0.5px;
+}
+.cutprice{
+    color:hsl(228, 12%, 48%);
+    font-size: 1rem;
+    font-weight: 450;
+    margin: 0.5px;
+}
+button{
+    background-color: hsl(156deg 37% 34%);
+    margin: 2em 0 1em 0;
+    padding: 1em 0;
+    border-radius: 0.7em;
+    color: var(--white);
+    cursor: pointer;
+    width: 100%;
+
+}
+button img{
+    margin-right: 1em;
+    max-width: 10%;
+}
+.btntext{
+    color:white;
+    font-size: 15px;
+    /* font-size: medium; */
+    font-weight: 550;
+}
