@@ -425,19 +425,19 @@ a{
 }
 
 #project1{
-    background-image: url(../portfolio-website/images/projects/Project1.png);
+    background-image: url(../port/portfolio-website/images/projects/Project1.png);
 }
 
 #project2{
     margin-left: 120px;
-    background-image: url(../portfolio-website/images/projects/Project2.png);
+    background-image: url(../port/portfolio-website/images/projects/Project2.png);
 }
 
 #project3{
-    background-image: url(../portfolio-website/images/projects/Project3.png);
+    background-image: url(../port/portfolio-website/images/projects/Project3.png);
 }
 
 #project4{
     margin-left: 120px;
-    background-image: url(../portfolio-website/images/projects/Project4.png);
+    background-image: url(../port/portfolio-website/images/projects/Project4.png);
 }
