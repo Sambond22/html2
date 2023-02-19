@@ -59,6 +59,7 @@
 
 .file div a{
 color: black;
+
 }
 
 .file:hover{
@@ -307,7 +308,7 @@ a{
 .card{
     width: 90%;
      height: 550px;
-     background-image: url(../portfolio-website/images/projects/Project1.png);
+     background-image: url(../port/portfolio-website/images/projects/Project1.png);
      background-size: cover;
      background-repeat: none;
      position: relative;
@@ -440,4 +441,201 @@ a{
 #project4{
     margin-left: 120px;
     background-image: url(../port/portfolio-website/images/projects/Project4.png);
+}
+
+.skill-contain {
+    display: flex;
+    position: relative;
+    padding: 2rem;
+    margin: 10rem auto;
+    gap: 30px;
+
+}
+
+.skill-left{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+}
+.special-M{
+    font-size: 5.5rem;
+}
+.skill-head{
+    color: rgb(244, 71, 13);
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.skill-para{
+    margin-top: 1rem;
+    text-align: justify;
+    width: 85%;
+    
+}
+.skill-para p{
+    margin: 2rem 0;
+}
+.skill-right{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 90%;
+    gap: 1.8rem;
+    padding-left: 1.7rem;
+ 
+
+}
+.skills-logo{
+    width: 5.1rem;
+    height: 6.5rem;
+    transition: scale 5s;
+}
+.skills-logo:hover{
+    transform: scale(1.2);
+   
+}
+.blob-style{
+    position: absolute;
+    z-index: -1;
+    top: 5rem;
+    left: 8rem;
+    animation: blob 5.3s  linear infinite;
+}
+@keyframes blob{
+
+    30%{
+        left: 15%;
+        bottom: 5%;
+      
+    }
+    70%{
+        transform: translateY(13%);
+      
+    }
+}
+.skill-fadded-text{
+    font-size: 15em;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(231, 231, 231);
+   bottom: -45%;
+   right: -12%;
+    user-select: none;
+}
+
+.contact{
+    background-color:rgb(231, 231, 231) ;
+    width: 100%;
+    margin-top: 13.85rem;
+}
+.contact-head{
+font-size:5em ;
+color: rgb(244, 47, 12);
+padding-top:2rem ;
+}
+.contact-subhead{
+    font-size:3em ;
+    color: #343d68aa;
+    text-transform:capitalize;
+}
+
+.contact-form{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width:70% ;
+    margin:2rem ;
+}
+.form-field-contain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+.d{
+    height: 2.5rem;
+    padding: 0 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    font-weight: 500;
+}
+
+.form-field-contain textarea{
+    padding-top: 1rem;
+    height: auto;
+}
+
+#submit-btn{
+    width: 17.5rem;
+    border: none;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+#submit-btn:hover{
+    scale: 0.9;
+}
+.submit-icon{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: #343d68;
+    padding: 5rem;
+    margin-top: -1px;
+    display: flex;
+    position: relative;
+}
+
+.foot-wrap{
+    display: flex;
+    gap: 1rem;
+    padding: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-left{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 2rem;
+}
+.foot-left div a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transform: color 2s;
+}
+.foot-left div a:hover{
+    color: rgb(245, 93, 12);
+}
+
+
+
+.foot-right{
+    gap: 1rem;
+    color: white;
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.foot-fadded-text{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    color: #535c87;
+    user-select: none;
+    font-size: 4.5rem;
+}
+
+#project #skill #contactme{
+    transition: 20s;
 }
