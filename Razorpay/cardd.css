@@ -1,0 +1,15 @@
+.img1{
+    background-color: rgb(5, 180, 239);
+    border-radius: 50%;
+    
+}
+.img1:hover{
+    background-color: limegreen;
+}
+.img2{
+    display: hidden;
+    
+}
+.img2:hover{
+    display: visible;
+}
